@@ -1,0 +1,16 @@
+.comment-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.author-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (width <=700px) {
+    .comment-date {
+      font-size: 8px;
+    }
+  }

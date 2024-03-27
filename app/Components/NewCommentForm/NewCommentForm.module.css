@@ -1,0 +1,16 @@
+.new-comment__form {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.new-comment__text {
+    min-height: 70px;
+}
+
+@media (width <=700px) {
+    .new-comment__form  {
+        width: 100%;
+    }
+  }
